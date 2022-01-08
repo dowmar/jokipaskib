@@ -234,12 +234,16 @@ h2 {
 }
 
 footer {
-    bottom: 0;
-    color: #fff;
+    
+   
     background-color: #3baea9;
 }
 
 .form-control {
     width: 100%;
     /* border: 5px solid black; */
+}
+
+svg{
+    z-index: 1;
 }
