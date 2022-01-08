@@ -27,6 +27,7 @@ body {
 }
 
 .navbar-brand {
+    color: white;
     font-weight: 700;
     font-size: 32px;
 }
@@ -49,8 +50,14 @@ body {
 /* Desktop */
 @media (min-width: 992px) {}
 
+.navbar-nav>a {
+    color: white;
+
+}
+
 .nav-link:hover {
-    border-bottom: 3px solid white;
+    color: #3baea9;
+    border-bottom: 3px solid #3baea9;
     margin-bottom: -3px;
 }
 
@@ -104,7 +111,8 @@ body {
 }
 
 #sjr-singkat {
-
+    padding-top: 5%;
+    padding-bottom: 10%;
     /* padding: 100px 0; */
 }
 
@@ -130,6 +138,15 @@ h2 {
 
     width: 70px;
     height: 70px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+.circle-icon2 {
+
+    width: 500px;
+    height: 500px;
     background-color: #000;
     border-radius: 50%;
     transition: all .1s ease-in;
@@ -234,8 +251,8 @@ h2 {
 }
 
 footer {
-    
-   
+
+
     background-color: #3baea9;
 }
 
@@ -244,6 +261,6 @@ footer {
     /* border: 5px solid black; */
 }
 
-svg{
+svg {
     z-index: 1;
 }
