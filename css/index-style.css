@@ -79,7 +79,7 @@ body {
 .hero-tagline h1 {
     color: #fff;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 72px;
 }
 
@@ -230,6 +230,14 @@ h2 {
 
 #profile {
     /* padding: 100px 0; */
+}
+
+.in-hero>h1 {
+    /* background-color: #3baea9; */
+    color: #3baea9;
+    border-radius: 20px;
+    font-size: 150px;
+    opacity: 1;
 }
 
 #gallery {
