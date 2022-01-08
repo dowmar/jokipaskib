@@ -50,9 +50,13 @@ body {
 /* Desktop */
 @media (min-width: 992px) {}
 
-.navbar-nav>a {
+.navbar-nav {
     color: white;
 
+}
+
+.nav-link {
+    color: #fff;
 }
 
 .nav-link:hover {
@@ -60,6 +64,10 @@ body {
     border-bottom: 3px solid #3baea9;
     margin-bottom: -3px;
 }
+
+
+
+
 
 #hero {
     overflow: hidden;
@@ -148,6 +156,15 @@ h2 {
     width: 500px;
     height: 500px;
     background-color: #000;
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+.circle-icon3 {
+
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
     border-radius: 50%;
     transition: all .1s ease-in;
 }
@@ -250,6 +267,11 @@ h2 {
     margin-left: auto;
 }
 
+
+.btn:hover {
+    background-color: #3baea9;
+}
+
 footer {
 
 
@@ -262,5 +284,5 @@ footer {
 }
 
 svg {
-    z-index: 1;
+    z-index: 0;
 }
