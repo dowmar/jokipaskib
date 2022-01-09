@@ -18,8 +18,25 @@ body {
 
 .navbar {
     z-index: 3;
-    height: 100px;
-    background: dark;
+
+    color: white;
+    background-color: #212529;
+
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        z-index: 3;
+        height: 100px;
+        color: white;
+        background-color: #212529;
+        opacity: 0.5;
+    }
+}
+
+.navbar-toggler {
+    color: white;
+    background: turquoise;
 }
 
 .bg-img {
@@ -36,28 +53,24 @@ body {
     font-size: 20px;
 }
 
-.video-background {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgba(0, 0, 0, .5);
-}
-
 .nav-link.active {
     font-weight: 700;
 }
 
 /* Desktop */
-@media (min-width: 992px) {}
 
-.navbar-nav {
-    color: white;
 
-}
+
+@media (min-width: 576px) {}
+
+.navbar-nav {}
 
 .nav-link {
     color: #fff;
+    /* background-color: black; */
 }
+
+
 
 .nav-link:hover {
     color: #3baea9;
@@ -232,12 +245,23 @@ h2 {
     /* padding: 100px 0; */
 }
 
-.in-hero>h1 {
-    /* background-color: #3baea9; */
+.in-hero .title-hero {
+
     color: #3baea9;
     border-radius: 20px;
-    font-size: 150px;
+    font-size: 40px;
     opacity: 1;
+}
+
+@media (min-width: 992px) {
+
+    .in-hero .title-hero {
+
+        color: #3baea9;
+        border-radius: 20px;
+        font-size: 150px;
+        opacity: 1;
+    }
 }
 
 #gallery {
